@@ -1,0 +1,7 @@
+FROM quay.io/ledio/httpd-ledio-cipi:latest
+
+LABEL description="Creating a custom httpd image"
+
+LABEL mantainer="Ledio Cipi"
+
+ADD index.html /var/www/html/
